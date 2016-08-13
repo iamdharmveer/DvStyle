@@ -1,0 +1,27 @@
+body{
+    margin:0;
+}
+
+.intro{
+    background:url('https://scontent.fdel1-1.fna.fbcdn.net/v/t1.0-9/12803172_1775295152692248_9222061881322145954_n.jpg?oh=bcd5270445ab3332fb730d9cb3e7b3e0&oe=5811556C'),linear-gradient(233deg, #e56420, #c22525, #3d9c31, #37bbde);
+    width:100%;
+    height:100vh;
+    background-size:cover;
+    background-blend-mode: hard-light;
+    animation: hue-rotate 3s linear infinite;
+}
+
+@keyframes hue-rotate {
+  from {
+    -webkit-filter: hue-rotate(0);
+    -moz-filter: hue-rotate(0);
+    -ms-filter: hue-rotate(0);
+    filter: hue-rotate(0);
+  }
+  to {
+    -webkit-filter: hue-rotate(360deg);
+    -moz-filter: hue-rotate(360deg);
+    -ms-filter: hue-rotate(360deg);
+    filter: hue-rotate(360deg);
+  }
+}
